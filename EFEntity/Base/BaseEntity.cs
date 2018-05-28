@@ -11,6 +11,7 @@ namespace EFEntity.Base
         public BaseEntity()
         {
             CreateTime = DateTime.Now;
+            
         }
         [DataMember]
         [Key]

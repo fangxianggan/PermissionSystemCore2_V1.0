@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace EFEntity.Models
@@ -17,9 +18,9 @@ namespace EFEntity.Models
 
         public int ParentId { set; get; }
 
+        //不存数据库
+        [NotMapped()]
         public virtual Department ParentDepartment { set; get; }
-
-
 
     }
 }

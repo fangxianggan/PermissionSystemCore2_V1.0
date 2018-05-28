@@ -11,9 +11,10 @@ using System;
 namespace EFDAL.Migrations
 {
     [DbContext(typeof(PerDbContext))]
-    partial class PerDbcontextModelSnapshot : ModelSnapshot
+    [Migration("20180528055833_userrole")]
+    partial class userrole
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
