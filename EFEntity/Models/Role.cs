@@ -11,6 +11,6 @@ namespace EFEntity.Models
 
         public string RoleCode { set; get; }
 
-        public virtual ICollection<User> Users { set; get; }
+        public virtual ICollection<User>  GetUsers { set; get; }
     }
 }
