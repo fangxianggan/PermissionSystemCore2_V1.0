@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EFDAL\EFDAL.csproj" />
+    <ProjectReference Include="..\EFEntity\EFEntity.csproj" />
   </ItemGroup>
 
 </Project>

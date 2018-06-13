@@ -21,6 +21,7 @@ namespace EFEntity.Models
         [ForeignKey("DeptId")]
         public virtual Department Department { set; get; }
 
+        [NotMapped()]
         public virtual ICollection<Role>  GetRoles { set; get; }
 
     }
